@@ -65,16 +65,19 @@ a{
     background-color: rgb(238, 129, 238);
 }
 
-/* --second-main-section */
-.second-main-section{
-    background-color: white;
+/* --second-third-fourth-main-section--*/
+.second-main-section,
+.third-main-section,
+.fourth-main-section {
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.second-container-main-section{
+.second-container-main-section,
+.third-container-main-section,
+.fourth-container-main-section {
     height: 80%;
     width: 70%;
     display: flex;
@@ -82,7 +85,9 @@ a{
     border: 1px dashed black;
 }
 
-.second-container-left{
+.second-container-left,
+.third-container-right,
+.fourth-container-left {
     width: 60%;
     height: 100%;
      /* --DEBUG-- */
@@ -90,44 +95,26 @@ a{
      background-color: rgb(29, 144, 255);
 }
 
-.second-container-right{
+.second-container-right,
+.fourth-container-right,
+.third-container-left {
     width: 40%;
     height: 100%;
      /* --DEBUG-- */
      border: 1px dashed black;
      background-color: rgb(255, 191, 203);
 }
-
-/* --third-main-section */
 
 .third-main-section{
     background-color: rgb(211, 211, 211);
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-    
-.third-container-main-section{
-    height: 80%;
-    width: 70%;
-    display: flex;
-    /* --DEBUG-- */
-    border: 1px dashed black;
 }
 
-.third-container-right{
-    width: 60%;
-    height: 100%;
-     /* --DEBUG-- */
-     border: 1px dashed black;
-     background-color: rgb(29, 144, 255);
+.second-main-section,
+.fourth-main-section{
+    background-color: white;
 }
 
-.third-container-left{
-    width: 40%;
-    height: 100%;
-     /* --DEBUG-- */
-     border: 1px dashed black;
-     background-color: rgb(255, 191, 203);
-}
+
+
+
+
