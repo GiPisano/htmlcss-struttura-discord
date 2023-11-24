@@ -134,6 +134,49 @@ a{
     background-color: rgb(35, 139, 33);
 }
 
+/* -----FOOTER-- */
+
+.footer{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      /* --DEBUG-- */
+    background-color: rgb(35, 39, 42);
+}
+
+.footer-container{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    /* --DEBUG-- */
+    border: 1px dashed black
+}
+
+.big-part{
+    height: 100%;
+    width: 30%;
+    /* --DEBUG-- */
+    border: 1px dashed black;
+    background-color: rgb(240, 128, 128);
+}
+
+.piece{
+    height: 100%;
+    width: 20%;
+    /* --DEBUG-- */
+    border: 1px dashed white;
+    background-color: rgb(33, 178, 170)
+}
+
+.horizontal-row {
+    height: 1px;
+    width: 100px;
+    background-color: rgb(211, 211, 211);
+}
+
+
+
 
 
 
