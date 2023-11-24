@@ -114,6 +114,25 @@ a{
     background-color: white;
 }
 
+/* --fifth-main-section--  */
+
+.fifth-main-section{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* --DEBUG-- */
+     border: 1px dashed black;
+    background-color: rgb(211, 211, 211);
+}
+
+.fifth-container-main-section{
+    height: 90%;
+    width: 70%;
+    /* --DEBUG-- */
+    border: 1px dashed black;
+    background-color: rgb(35, 139, 33);
+}
 
 
 
