@@ -171,16 +171,12 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-     /* --DEBUG-- */
-     border: 1px dashed black;
     background-color: rgb(211, 211, 211);
 }
 
 .fifth-container-main-section{
     height: 80%;
     width: 70%;
-    /* --DEBUG-- */
-    border: 1px dashed black;
 }
 
 .fifth-container-main-section p,
@@ -192,7 +188,7 @@ a{
 
 .img-big-container{
     width: 100%;
-    height: 60%;
+    height: 70%;
 }
 
 /* --MAIN-FOOTER-- */
@@ -239,25 +235,19 @@ a{
 .big-part{
     height: 100%;
     width: 30%;
-    /* --DEBUG-- */
-    border: 1px dashed black;
-    background-color: rgb(240, 128, 128);
 }
 
 .piece{
     height: 100%;
     width: 20%;
-    /* --DEBUG-- */
-    border: 1px dashed white;
-    background-color: rgb(33, 178, 170)
 }
 
 /* --HORIZONTAL-ROW-- */
 
 .horizontal-row {
     height: 1px;
-    width: 100px;
-    background-color: rgb(211, 211, 211);
+    width: 80%;
+    background-color: rgb(113, 137, 219);
 }
 
 /* --FOOTER-- */
@@ -290,10 +280,42 @@ a{
     background-color: rgb(255, 182, 194) ;
 }
 
+/* --FOOTER-BIG-PART-- */
 
+.big-part h2{
+    font-size: 30px;
+    color: rgb(113, 137, 219);
+    padding: 20px;
+}
 
+.big-part p img{
+    width: 20px;
+    height: auto;
+}
 
+.big-part p span{
+    margin: 5px;
+}
 
+.big-part p{
+    padding: 20px;
+    color:white;
+    cursor: pointer;
+}
+
+/* --FOOTER-PIECE-PART-- */
+
+.piece h4{
+    color: rgb(113, 137, 219);
+    padding: 30px 0 3px 20px ;
+}
+
+.piece ul li{
+    color: white;
+    padding: 2px 20px;
+    list-style-type: none;
+    cursor: pointer;
+}
 
 
 
