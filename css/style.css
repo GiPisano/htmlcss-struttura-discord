@@ -166,7 +166,7 @@ a{
 
 /* --fifth-main-section--  */
 
-.fifth-main-section{
+.big-main-section{
     height: 1000px;
     display: flex;
     justify-content: center;
@@ -174,13 +174,13 @@ a{
     background-color: rgb(211, 211, 211);
 }
 
-.fifth-container-main-section{
+.big-container-main-section{
     height: 80%;
     width: 70%;
 }
 
-.fifth-container-main-section p,
-.fifth-container-main-section h2 {
+.big-container-main-section p,
+.big-container-main-section h2 {
     text-align: center;
 }
 
@@ -228,8 +228,6 @@ a{
     height: 80%;
     width: 70%;
     display: flex;
-    /* --DEBUG-- */
-    border: 1px dashed black
 }
 
 .big-part{
@@ -276,7 +274,7 @@ a{
 .button-footer {
     padding: 5px;
      /* --DEBUG-- */
-     border: 1px dashed black;
+    border: 1px dashed black;
     background-color: rgb(255, 182, 194) ;
 }
 
